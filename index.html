@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Home | Book.com</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">Book<span>.com</span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="hotelpage/index2.html">Hotels</a></li>
+        <li><a href="Fightpage/FlightPage.html">Flights</a></li>
+        <li><a href="#package">Packages</a></li>
+        <li><a href="#client">Clients</a></li>
+      </ul>
+    </nav>
+    <header class="header" id="home">
+      <div data-aos="fade-right" class="section__container header__container">
+        <h1>TRAVEL<br /><span>WITH EASE.</span></h1>
+        <p>Enjoy the best moments</p>
+        <form action="/">
+          <div class="input__group">
+            <span><i class="ri-map-2-fill"></i></span>
+            <input type="text" placeholder="Where are you going?" />
+          </div>
+          <div class="input__group">
+            <span><i class="ri-map-pin-2-fill"></i></span>
+            <input type="text" placeholder="Location" />
+          </div>
+          <div class="input__group">
+            <span><i class="ri-list-ordered-2"></i></span>
+            <input type="text" placeholder="Trip type" />
+          </div>
+          <div class="input__group">
+            <button class="btn">Search</button>
+          </div>
+        </form>
+      </div>
+    </header>
+
+    <section class="section__container feature__container" id="service">
+      <h2 class="section__header">Our Services</h2>
+      <p class="section__description">
+        Explore handpicked vacation packages that include flights, hotels,
+        transfers, and activities. Perfect for families, couples, and solo
+        travelers.
+      </p>
+
+      <div class="feature__card">
+        <img src="assets/feature-1.png" alt="feature" />
+
+        <div>
+          <h4>Flight Bookings</h4>
+          <p>
+            We offer competitive rates for domestic and international flights.
+            Easily search, compare, and book flights from top airlines with
+            instant confirmation.
+          </p>
+        </div>
+      </div>
+      <div class="feature__card">
+        <img src="assets/feature-2.png" alt="feature" />
+        <div>
+          <h4>Hotel Reservations</h4>
+          <p>
+            Find and reserve accommodations across thousands of hotels in
+            Nigeria. Filter by price, location, amenities, and reviews to get
+            the perfect stay.
+          </p>
+        </div>
+      </div>
+      <div class="feature__card">
+        <img src="assets/feature-3.png" alt="feature" />
+        <div>
+          <h4>24/7 Customer Support</h4>
+          <p>
+            Our travel experts are available around the clock to assist you with
+            bookings, changes, cancellations, or any travel inquiries.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="destination" id="destination">
+      <div class="section__container destination__container">
+        <h2 class="section__header">Top Destinations</h2>
+        <p class="section__description">
+          Find out what are the best destinations in the Nigeria
+        </p>
+        <div class="destination__grid">
+          <div class="destination__card">
+            <img
+              src="assets/Oguta-Lake-Holiday-Complex.jpeg"
+              alt="Oguta-Lake-Holiday-Complex"
+            />
+            <div class="destination__content">Imo State, Nigeria</div>
+          </div>
+          <div class="destination__card">
+            <img src="assets/Kajuru-Castle.jpeg" alt="Kajuru Castle" />
+            <div class="destination__content">Kaduna</div>
+          </div>
+          <div class="destination__card">
+            <img src="assets/Osogbo-Nigeria.jpeg" alt="Oshogbo" />
+            <div class="destination__content">Oshogbo Nigeria</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="discount">
+      <div class="section__container discount__container">
+        <h2>
+          Get upto 60% discount<br /><span>by joining us before summer</span>
+        </h2>
+        <div class="discount__btn">
+          <button class="btn">Join Us</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container package__container" id="package">
+      <h2 class="section__header">Featured Packages</h2>
+      <p class="section__description">
+        We will help you find the trip that's perfect for you!
+      </p>
+      <div class="package__grid">
+        <div class="package__card">
+          <img
+            src="assets/ziba beach resort lagos.jpg"
+            alt="ziba beach resort"
+          />
+          <div class="package__card__details">
+            <h4>Lagos Tour</h4>
+            <p>
+              Explore the vibrant culture and stunning landscapes of Lagos State
+              Nigeria.
+            </p>
+            <div>
+              <button class="btn">Book Now</button>
+              <h3>₦60,000:00</h3>
+            </div>
+          </div>
+        </div>
+        <div class="package__card">
+          <img src="assets/Zuma Rock Resort.jpg" alt="Zuma Rock" />
+          <div class="package__card__details">
+            <h4>Abuja Tour</h4>
+            <p>
+              Immerse yourself in the rich culture and stunning landscapes of
+              Abuja.
+            </p>
+            <div>
+              <button class="btn">Book Now</button>
+              <h3>₦90,000:00</h3>
+            </div>
+          </div>
+        </div>
+        <div class="package__card">
+          <img
+            src="assets/Moremi-Statue-Ife-scaled.webp"
+            alt="Moremi-Statue-Ife"
+          />
+          <div class="package__card__details">
+            <h4>Osun Tour</h4>
+            <p>
+              Experience the vibrant blend of culture,Visiting the Osun Osogbo
+              Grove and Moremi Statue in Ife.
+            </p>
+            <div>
+              <button class="btn">Book Now</button>
+              <h3>₦50,000:00</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">Client Reviews</h2>
+      <p class="section__description">
+        We have many happy customers who booked holidays with us
+      </p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/Okeowo.PNG" alt="client" />
+              <span><i class="ri-double-quotes-l"></i></span>
+              <p>
+                The instant booking feature is a game-changer. I secured my
+                dream vacation to Bali in minutes!
+              </p>
+              <h4>Okeowo Victor</h4>
+              <h5>Software Engineer</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/Nimota 2.png" alt="client" />
+              <span><i class="ri-double-quotes-l"></i></span>
+              <p>
+                Book.com made my vacation planning effortless and enjoyable.
+                Their best price guarantee really delivered!
+              </p>
+              <h4>Agboluaje Nimota</h4>
+              <h5>Marketing Manager</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/Oladimeji2.jpg" alt="client" />
+              <span><i class="ri-double-quotes-l"></i></span>
+              <p>
+                Book.com offers an unbeatable combination of great prices and
+                top customer service. Highly recommended!
+              </p>
+              <h4>Ajiero Oladimeji</h4>
+              <h5>Financial Analyst</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/dauda.jpg" alt="client" />
+              <span><i class="ri-double-quotes-l"></i></span>
+              <p>
+                Booking with Book.com was a breeze. Their user-friendly
+                interface and instant confirmation saved me so much time.
+              </p>
+              <h4>Dauda Alilat</h4>
+              <h5>Event Planner</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/Uthman.jpg" alt="client" />
+              <span><i class="ri-double-quotes-l"></i></span>
+              <p>
+                From booking to travel, every step was seamless. TravelDream
+                truly makes travel dreams come true!
+              </p>
+              <h4>Ogunnowo Uthman</h4>
+              <h5>Photographer</h5>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="section__container subscribe__container">
+        <h2>Subscribe to our newsletter for updates</h2>
+        <div>
+          <p>For the best recommendation of your. Please subscribe us.</p>
+          <form action="/">
+            <input type="text" placeholder="Enter Your Email Here" />
+            <button class="btn">SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Book<span> .com</span></a>
+          </div>
+          <p>
+            Explore the Nigeria's best destinations, enjoy unbeatable prices,
+            and book your perfect getaway instantly.
+          </p>
+          <h4>CONNECT WITH US</h4>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-whatsapp-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>QUICK LINKS</h4>
+          <ul class="footer__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>DESTINATIONS</h4>
+          <ul class="footer__links">
+            <li><a href="#">Lagos States</a></li>
+            <li><a href="#">Osun State</a></li>
+            <li><a href="#">Rivers</a></li>
+            <li><a href="#">Kwara State</a></li>
+            <li><a href="#">Abuja</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>OUR ACTIVITIES</h4>
+          <ul class="footer__links">
+            <li><a href="#">Trekking</a></li>
+            <li><a href="#">Peak Climbing</a></li>
+            <li><a href="#">Biking</a></li>
+            <li><a href="#">River Rafting</a></li>
+            <li><a href="#">Cultural Tour</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 Book.com All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
